@@ -1,0 +1,193 @@
+No tocar este codigo*/ 
+.sidebar-closed > #sidebar > ul {
+    display: none;
+}
+
+.sidebar-closed #main-content {
+    margin-left: 0px;
+}
+
+.sidebar-closed #sidebar {
+    margin-left: -180px;
+}
+/*COMUN*/
+.top-5{
+	margin-top: 5%;
+}
+.top-3{
+	margin-top: 3%;
+}
+.top-1{
+	margin-top: 1%;
+}
+.padding-5{
+	padding: 5%;
+}
+.padding{
+	padding-right: 10px;
+}
+/*PAGINA DE FORMULARIO LOGIN*/
+/*COLOR DE FONDO*/
+.form-login{
+	/*margin-left: 30%;
+	margin-top: 5%;*/
+	max-width: 340px;/*forma de acomodar el formularo al centro*/
+	margin: 0 auto;
+
+}
+#login-page{
+	background-color: #e8e8e8;
+	height: 665px;
+}
+/*TODAS LAS PAGINAS*/
+
+/*MENU*/
+.black-bg{
+	background-color: #42495C;
+}
+#sidebar{
+	background-color: #42495C;
+	position: absolute;
+	padding: 10px;
+	height: 120%;
+}
+.sidebar-menu{
+	padding: 0;
+}
+.logout{
+	background-color: #A053A1;
+	border-radius: 6px;
+	color: white;
+	margin-top: -30%;
+	margin-right: 20px;
+}
+.text-white{
+	font-size: 20px;
+	color: white;
+}
+.sub-menu{
+	list-style: none;
+	margin-top: 7%;
+	padding: 7%;
+}
+.sub-menu a:hover{
+	background-color: #A053A1;
+	text-decoration: none;
+	color: white;
+	margin-top: 20%;
+	padding: 12%;
+}
+.color-white{
+	color: white;
+}
+/*COLOR DE TITULO*/
+.bg-gray1{
+	background-color: #e4e7ec;
+}
+.form-login-heading{
+	background-color: #00ecff;
+	color: white;
+	text-transform: uppercase;
+	padding: 6%;
+}
+/*COLOR DE ICONO*/
+.ico-color{
+	color: #a5a5a5;
+}
+/*OCULTAU TEXTO Y LINEA DE LOS ICONOS*/
+.box0:hover{
+	background-color: white;
+	color: #d1111a;
+}
+.box0{
+	color: transparent;
+}
+.box0:hover>.box1{
+	border-bottom: none;
+}
+.box1:hover{
+	border-bottom: none;
+}
+.box1{
+	border-bottom: 2px solid gray;
+}
+/*COLOR DE FONDO BLANCO*/
+.login-wrap{
+	background-color: white;
+	padding: 6%;
+	margin-top: -4%;
+}
+/*COLOR DE LETRA Y CENTRO*/
+.registration{
+	color: #a5a5a5;
+	text-align: center;
+	margin-top: 5%;
+}
+/*COLOR DE TEXTO*/
+.text-gray{
+	color: 	#8b8b8b;
+}
+/*CAJA DE LOS VIDEOS*/
+.divider{
+	border: 1px solid #c6c6c6;
+}
+/*COLOR DE FONDO DE CADA CUADRO*/
+.showback{
+	background-color: white;
+	padding: 10px;
+	box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.75);
+	margin-top: 6%;
+}
+/*CUADRO BLANCO CANDY*/
+.bg-white{
+	background-color: white;
+}
+/*TEXTO Y COLORES DE ICONOS*/
+.itc{
+	font-style: italic;
+}
+.bg-theme{
+	background-color: #00ecff !important;
+}
+.btn-purple{
+	background-color: purple;
+	padding: 8%;
+	text-align: center;
+	height: 70px;
+	color: white;
+}
+.borde{
+	border-bottom: 1px solid #c6c6c6;
+	padding: 5%;
+}
+/*PAGINA FORM*/
+.form-panel{
+	background-color: white;
+	padding: 10px;
+	box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.75);
+	margin-top: 3%;
+}
+/*PAGINA TABLES*/
+.content-panel{
+	background-color: white;
+	padding: 10px;
+	box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.75);
+	margin-top: 3%;
+}
+/*PAGINA GALLERY*/
+.photo{
+	margin-top: 5%;
+}
+/*todas la paginas para que el contenido no se encime en el menu*/
+.wrapper{
+	display: inline-block;
+	width: 100%;
+	padding: 15px;
+}
+#main-content{
+	margin-left: 200px;
+}
+/*LOGOUT PAGINA PRINCIPAL*/
+.modal-content .form-login{
+	margin: 100px;
+}
